@@ -55,20 +55,19 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
-  background-color: #e3f2fd; /* softer light blue */
+  gap: 12px;
+  background-color: #e6f4ff;
   padding: 20px;
   border-radius: 10px;
 }
 
 .flex-gallery img {
-  width: 100px; /* increased slightly for visibility */
-  height: 100px;
+  width: 90px;
+  height: 90px;
   object-fit: cover;
-  border: 2px solid #3498db;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
+  border: 2px solid #3498db;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 .flex-gallery img:hover {
