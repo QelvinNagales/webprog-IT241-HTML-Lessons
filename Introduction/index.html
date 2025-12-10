@@ -1,37 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" href="css/flexbox.css">
-<link rel="stylesheet" href="css/mystyle.css">    
-<title>WEBPROG IT241 - Qelvin Nagales</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WEBPROG IT241 - Qelvin Nagales</title>
+    <link rel="stylesheet" href="css/bootstrap-custom.css">
+    
 </head>
 <body>
 
-<div class="container">
-    <h1>My Personal Profile</h1>
-    
-    <img src="webrog-IT241-HTML-Lessons/Introduction/images/profile.jpg" alt="Qelvin Nagales" class="profile-pic">
-    
-    <div class="content">
-        <h2>About Me</h2>
-        <p>Hello! I'm a student passionate about web development and technology.</p>
-        
-        <h2>Education & Achievements</h2>
-        <p>Currently studying at Asia Pacific College, pursuing excellence in IT.</p>
-        
-        <h2>Course</h2>
-        <p>Bachelor of Science in Information Technology</p>
-        
-        <h2>IT Experience</h2>
-        <p>Learning web programming, HTML, CSS, and building projects.</p>
-        
-        <h2>Hobbies & Interests</h2>
-        <p>Coding, learning new technologies, and problem solving.</p>
-        
-        <h2>Goals In Life / Dream</h2>
-        <p>To become the richest man in the World.</p>
-    </div>
-</div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../Home/index.html">WEBPROG IT241</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="#navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../Home/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Profile</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+
+
+
+
+
+    <main style="position:relative; z-index:1;">
+        <div class="portfolio-container">
+            <section class="profile-section">
+                <img src="images/Profile.jpg" alt="Qelvin Nagales profile photo" class="profile-pic" loading="lazy">
+                <div class="profile-name">Qelvin Nagales</div>
+                <img src="images/APC School Logos (Blue)_SoCIT-01.png" alt="Asia Pacific College School of Computing and Information Technologies Logo" style="width:220px;max-width:90vw;margin:1rem 0 0.5rem 0;display:block;">
+                <div class="profile-role">Student, Web Developer</div>
+                <div class="profile-school">BSIT @ Asia Pacific College</div>
+            </section>
+
+            <div class="section-title">About Me</div>
+            <div class="about-section">
+                Passionate about web development, technology, and building meaningful digital experiences. I love learning new tools and collaborating with others. My goal is to create beautiful, user-friendly interfaces and deliver great user experiences.
+            </div>
+
+            <div class="section-title">Skills</div>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>UI/UX</li>
+                <li>Teamwork</li>
+            </ul>
+
+            <div class="section-title">Hobbies & Interests</div>
+            <ul class="hobbies-list">
+                <li>Coding</li>
+                <li>Problem Solving</li>
+                <li>Exploring New Tech</li>
+                <li>Music</li>
+                <li>Gaming</li>
+            </ul>
+
+            <div class="section-title">Organizations</div>
+            <div class="images-grid">
+                <img src="images/APC SOAR_LOGO (1).png" alt="SOAR Organization Logo" class="org-img" loading="lazy">
+                <img src="images/APC Band Logo Black.png" alt="APC Band Logo" class="org-img" loading="lazy">
+                <img src="images/Gaming Genesis Logo Colored .png" alt="Gaming Genesis Logo" class="org-img" loading="lazy">
+                <img src="images/JISSA SOCMED NEW LOGO (1).png" alt="JISSA Organization Logo" class="org-img" loading="lazy">
+                <img src="images/JPCS-APC (5).png" alt="JPCS-APC Organization Logo" class="org-img" loading="lazy">
+                <img src="images/MSC Logo.png" alt="MSC Organization Logo" class="org-img" loading="lazy">
+            </div>
+
+           
+
+            <div style="text-align:center; margin:2rem auto 0 auto;">
+                <img src="images/Jeff.jpg" alt="Jeff Bezos" class="bezos-img">
+                </div>
+    </main>
 </body>
 </html>
